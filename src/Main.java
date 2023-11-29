@@ -3,7 +3,7 @@ public class Main {
         int ticket = 14236; // стоимость билета
         int miles = 20; // количество рублей для одной бонусной мили
 
-        Object bonus = ticket / miles;
+        int bonus = ticket / miles;
         System.out.println(bonus);
     }
 }
